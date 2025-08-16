@@ -4,11 +4,11 @@
 - Buddy is a simple task management app that keeps track of your tasks, due dates, and completion status.
 
 > [!NOTE]
-> This is a frontend project using React. No backend is used here. App is run in a development environment.
+> This is a frontend project using Typescript and React. No backend is used here. App is run in a development environment.
 
 ## Languages, Libraries, and Key Elements Used
-- React
 - Typescript for type checking to catch potential errors
+- React
 - Bootstrap for styling
 - Auth0 to authorize and authenticate user to use the app
 - useContext to store global data of tasks added in a session
