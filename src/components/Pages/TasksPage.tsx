@@ -1,7 +1,7 @@
 import { useAuth0 } from "@auth0/auth0-react";
-import PageLayout from "./PageLayout";
+import PageLayout from "./PageLayout/PageLayout";
 import TaskList from "./TaskList";
-import AddTaskModal from "./AddTaskModal";
+import AddTaskModal from "../Modals/AddTaskModal";
 
 const TasksPage:React.FC = () => {
     const {user, isAuthenticated} = useAuth0();  

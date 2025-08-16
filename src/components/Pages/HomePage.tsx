@@ -1,8 +1,8 @@
-import LoginButton from "./LoginButton";
-import PageLayout from "./PageLayout";
+import LoginButton from "./Buttons/LoginButton";
+import PageLayout from "./PageLayout/PageLayout";
 import {Container} from "react-bootstrap";
 import { useAuth0 } from '@auth0/auth0-react';
-import TaskButton from "./TaskButton";
+import TaskButton from "./Buttons/TaskButton";
 
 const HomePage: React.FC = () => {
     const {user, isAuthenticated} = useAuth0();

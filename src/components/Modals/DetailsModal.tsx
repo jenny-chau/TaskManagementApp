@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
-import type { Task } from "./Task";
+import type { Task } from "../TaskReducerContext/Task";
 import DeleteTaskModal from "./DeleteTaskModal";
 import UpdateModal from "./UpdateModal";
 

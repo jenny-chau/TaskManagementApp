@@ -4,7 +4,7 @@ import Auth0ProviderWithNav from './components/Auth0Provider.tsx';
 import App from './App.tsx'
 import "./index.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import TaskProvider from './components/TaskProvider.tsx';
+import TaskProvider from './components/TaskReducerContext/TaskProvider.tsx';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

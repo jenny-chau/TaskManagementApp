@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Button, Form, Modal } from "react-bootstrap";
-import type { Task } from "./Task";
-import { useTaskContext } from "./TaskContext";
+import type { Task } from "../TaskReducerContext/Task";
+import { useTaskContext } from "../TaskReducerContext/TaskContext";
 
 interface TaskObjectNoId {
     "title": string; 

@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Button, Modal } from "react-bootstrap";
-import { useTaskContext } from "./TaskContext";
+import { useTaskContext } from "../TaskReducerContext/TaskContext";
 
 interface DeleteTaskModalProps {
     task_id: number;

@@ -1,7 +1,7 @@
 import {Container, Nav, Navbar} from "react-bootstrap";
 import {useAuth0} from '@auth0/auth0-react';
-import LoginButton from "./LoginButton";
-import LogoutButton from "./LogoutButton";
+import LoginButton from "../Buttons/LoginButton";
+import LogoutButton from "../Buttons/LogoutButton";
 import { useNavigate } from "react-router-dom";
 
 const NavBar: React.FC = () => {

@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap';
 import TaskCard from './TaskCard'
-import { useTaskContext } from './TaskContext';
+import { useTaskContext } from '../TaskReducerContext/TaskContext';
 
 const TaskList:React.FC = () => {
     // const tasks_set = [

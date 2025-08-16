@@ -1,8 +1,8 @@
 import { Card } from "react-bootstrap";
-import DeleteTaskModal from "./DeleteTaskModal";
-import DetailsModal from "./DetailsModal";
-import UpdateModal from "./UpdateModal";
-import type { Task } from "./Task";
+import DeleteTaskModal from "../Modals/DeleteTaskModal";
+import DetailsModal from "../Modals/DetailsModal";
+import UpdateModal from "../Modals/UpdateModal";
+import type { Task } from "../TaskReducerContext/Task";
 
 const TaskCard: React.FC<Task> = (task) => {
     return (

@@ -1,6 +1,6 @@
 # Buddy | Task Management App
 
-# Introduction
+## Introduction
 - Buddy is a simple task management app that keeps track of your tasks, due dates, and completion status.
 
 > [!NOTE]

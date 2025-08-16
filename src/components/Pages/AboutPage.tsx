@@ -1,5 +1,5 @@
 import { Container, Col } from "react-bootstrap";
-import PageLayout from "./PageLayout";
+import PageLayout from "./PageLayout/PageLayout";
 
 const AboutPage: React.FC = () => {
     return (

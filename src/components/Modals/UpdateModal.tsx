@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { Button, Form, Modal } from "react-bootstrap";
-import type { Task } from "./Task";
+import type { Task } from "../TaskReducerContext/Task";
 import DeleteTaskModal from "./DeleteTaskModal";
-import { useTaskContext } from "./TaskContext";
+import { useTaskContext } from "../TaskReducerContext/TaskContext";
 
 export interface TaskObjectNoId {
     "id": number,
