@@ -33,6 +33,7 @@ const UpdateModal:React.FC<UpdateModalProps> = ({task, onClick}) => {
         setShow(false)
     }
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+        // If completion status of task is changed, need to convert the value to a boolean 
         if (e.target.name === "complete") {
             setFormData({ ...formData, [e.target.name]: e.target.value === "true" });
         }
