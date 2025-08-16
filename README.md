@@ -1,4 +1,4 @@
-## Buddy | Task Management App
+# Buddy | Task Management App
 
 # Introduction
 - Buddy is a simple task management app that keeps track of your tasks, due dates, and completion status.
@@ -6,7 +6,7 @@
 > [!NOTE]
 > This is a frontend project using React. No backend is used here. App is run in a development environment.
 
-# Languages, Libraries, and Key Elements Used
+## Languages, Libraries, and Key Elements Used
 - React
 - Typescript for type checking to catch potential errors
 - Bootstrap for styling
