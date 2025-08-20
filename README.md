@@ -16,7 +16,7 @@
 - useNavigate to navigate between pages
 - useReducer to handle add/delete/update tasks
 
-# Pages
+## Pages
 - Home
   - Home page with log in / sign up page
   - Once signed up, home page reloads to have a button to the tasks page
@@ -27,7 +27,7 @@
   - Tasks have a green background if completed and yellow if they are in progress
   - Once the page refreshes or user logs out, tasks reset as they are currently not stored to localstorage or to a database.
 
-# Getting started
+## Getting started
 1. Clone this Github repository
 2. Navigate to the "TaskManagementApp" directory
 3. Install dependencies: `npm install`
